@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    background: hsl(47, 88%, 63%);
+    overflow-x: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal {
+    display: flex;
+    overflow: hidden;
+    background: white;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 1);
+    overflow-y: scroll;
+    scrollbar-width: 0;
+    min-height: 300px;
+}
+
+.ul1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+    justify-content: center;
+    overflow-wrap: break-word;
+    margin: auto;
+    padding: 20px;
+}
+
+.li1 {
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    margin: auto;
+    align-items: start;
+    width: 100%;
+}
+
+#profile {
+    flex-direction: row;
+    align-items: center;
+}
+
+.div1 {
+    margin: 0 10px;
+}
+
+img {
+    min-width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+#image {
+    display: flex;
+    flex-grow: 1;
+}
+
+#tags {
+    font-family: 'Figtree';
+    font-weight: bolder;
+    width: auto;
+    color: hsl(0, 0%, 7%);
+    font-size: smaller;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+#date {
+    font-family: 'Figtree';
+    font-size: smaller;
+    padding: 10px 0;
+
+}
+
+#head {
+    font-family: "Figtree";
+    font-size: x-large;
+    font-weight: bold;
+    padding: 10px 0;
+}
+#head:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+    caret-color: hsl(0, 0%, 7%);
+    ;
+}
+
+#list {
+    display: flex;
+    background: hsl(47, 88%, 63%);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#subheading {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    font-weight: 10;
+    width: 100%;
+    min-height: 50px;
+}
+.sub{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.subheading1 {
+    font-family: "Figtree";
+    font-size: smaller;
+    display: flex;
+    font-weight: 10;
+    position: absolute;
+    left: 0;
+}
+
+#profile {
+    font-family: "Figtree";
+    margin-top: 10px;
+    font-weight: 900;
+}
+
+.div1 img {
+    max-width: 32px;
+    align-self: center;
+}
+
+.div1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    vertical-align: middle;
+}
+::-webkit-scrollbar {
+    display: none;
+  }
