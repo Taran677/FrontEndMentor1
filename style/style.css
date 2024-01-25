@@ -27,6 +27,8 @@ html {
     overflow-y: scroll;
     scrollbar-width: 0;
     min-height: 300px;
+    margin: 0 25px;
+    min-height: 300px;
 }
 
 .ul1 {
@@ -93,10 +95,11 @@ img {
 #head {
     font-family: "Figtree";
     font-size: x-large;
-    font-weight: bold;
+    font-weight: 900;
     padding: 10px 0;
 }
-#head:hover{
+
+#head:hover {
     color: hsl(47, 88%, 63%);
     cursor: pointer;
     caret-color: hsl(0, 0%, 7%);
@@ -115,21 +118,22 @@ img {
     align-items: center;
     justify-content: flex-start;
     text-align: left;
-    font-weight: 10;
     width: 100%;
     min-height: 50px;
 }
-.sub{
+
+.sub {
     position: relative;
     display: flex;
     width: 100%;
     height: 100%;
 }
+
 .subheading1 {
     font-family: "Figtree";
     font-size: smaller;
     display: flex;
-    font-weight: 10;
+    font-weight:300;
     position: absolute;
     left: 0;
 }
@@ -151,6 +155,12 @@ img {
     display: flex;
     vertical-align: middle;
 }
+
 ::-webkit-scrollbar {
     display: none;
-  }
+}
+.attribution{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
